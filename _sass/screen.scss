@@ -1,6 +1,18 @@
 @import "compass/reset";
-@import "susy";
+// @import "susy";
 @import "normalize";
-@import "breakpoint";
-@import "typeplate";
+// @import "breakpoint";
+@import "grid";
+@import "type";
 
+$base-color: #dfdfdf;
+
+body {
+	background: $base-color;
+}
+
+.profile-picture {
+	background: #ccc;
+	margin-top: 10px;
+	padding: 60px 26px 0 26px;
+}
