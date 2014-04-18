@@ -1,3 +1,4 @@
-p1-bio
+Portfolio Project at Eastern Washington University
 ======
-* Hamburger Helper
+### Sources
+* http://davidpots.com/blog/jekyll-github-pages-compass/
