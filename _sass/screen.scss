@@ -4,15 +4,47 @@
 // @import "breakpoint";
 @import "grid";
 @import "type";
+@import "mixins";
 
-$base-color: #dfdfdf;
+$base-color: #fff;
 
 body {
 	background: $base-color;
 }
 
 .profile-picture {
-	background: #ccc;
 	margin-top: 10px;
-	padding: 60px 26px 0 26px;
+	padding: 60px 25px 0 25px;
+	border: 1px solid #bbb;
 }
+
+.main-body {
+
+	h1 {
+		color: #ffffff;
+		background: black;
+		padding-left: .25em;
+	}
+
+	h2, h3 {
+		border-bottom: 1px solid #bbb;
+	}
+
+	p {
+		margin-bottom: $golden*.75em;
+		text-align: justify;
+	}
+}
+$bg-1: #000;
+$bg-2: #f5f697;
+$bg-3: #5cec3a;
+$bg-4: #eee;
+$bg-5: #aaa;
+$bg-6: #444;
+
+// bg-2 through bg-5 are currently commented out
+@include animate-5-bg($bg-1, $bg-2, $bg-3, $bg-4, $bg-5, $bg-6, bg_animate, 2s);
+@include animate-5-bg($bg-2, $bg-2, $bg-3, $bg-4, $bg-5, $bg-3, ham, 1s);
+
+
+

@@ -509,40 +509,128 @@ body {
   font-size: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bevan', cursive; }
+  font-family: 'Bevan', cursive;
+  line-height: 1.618em;
+  margin-top: 0.20225em;
+  margin-bottom: 0.4045em; }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: .33em;
+    font-family: 'Open Sans', sans-serif; }
 
 h1 {
-  line-height: 1.618em;
   font-size: 3.3333em; }
 
 h2 {
-  line-height: 1.618em;
   font-size: 2.6667em; }
 
 h3 {
-  line-height: 1.618em;
   font-size: 2em; }
 
 h4 {
-  line-height: 1.618em;
   font-size: 1.3333em; }
 
 h5 {
-  line-height: 1.618em;
   font-size: 1.1667em; }
 
 h6 {
-  line-height: 1.618em;
   font-size: 1em; }
 
 p {
   line-height: 1.618em;
+  margin-bottom: 0.4045em;
   font-size: 1em; }
 
 body {
-  background: #dfdfdf; }
+  background: white; }
 
 .profile-picture {
-  background: #ccc;
   margin-top: 10px;
-  padding: 60px 26px 0 26px; }
+  padding: 60px 25px 0 25px;
+  border: 1px solid #bbb; }
+
+.main-body h1 {
+  color: #ffffff;
+  background: black;
+  padding-left: .25em; }
+.main-body h2, .main-body h3 {
+  border-bottom: 1px solid #bbb; }
+.main-body p {
+  margin-bottom: 1.2135em;
+  text-align: justify; }
+
+.bg_animate {
+  animation: bg_animate 2s ease-in-out alternate infinite;
+  -webkit-animation: bg_animate 2s ease-in-out alternate infinite;
+  -moz-animation: bg_animate 2s ease-in-out alternate infinite;
+  -o-animation: bg_animate 2s ease-in-out alternate infinite; }
+
+@keyframes bg_animate {
+  0% {
+    background: black;
+    fill: black; }
+
+  100% {
+    background: #444444;
+    fill: #444444; } }
+@-webkit-keyframes bg_animate {
+  0% {
+    background: black;
+    fill: black; }
+
+  100% {
+    background: #444444;
+    fill: #444444; } }
+@-moz-keyframes bg_animate {
+  0% {
+    background: black;
+    fill: black; }
+
+  100% {
+    background: #444444;
+    fill: #444444; } }
+@-o-keyframes bg_animate {
+  0% {
+    background: black;
+    fill: black; }
+
+  100% {
+    background: #444444;
+    fill: #444444; } }
+.ham {
+  animation: ham 1s ease-in-out alternate infinite;
+  -webkit-animation: ham 1s ease-in-out alternate infinite;
+  -moz-animation: ham 1s ease-in-out alternate infinite;
+  -o-animation: ham 1s ease-in-out alternate infinite; }
+
+@keyframes ham {
+  0% {
+    background: #f5f697;
+    fill: #f5f697; }
+
+  100% {
+    background: #5cec3a;
+    fill: #5cec3a; } }
+@-webkit-keyframes ham {
+  0% {
+    background: #f5f697;
+    fill: #f5f697; }
+
+  100% {
+    background: #5cec3a;
+    fill: #5cec3a; } }
+@-moz-keyframes ham {
+  0% {
+    background: #f5f697;
+    fill: #f5f697; }
+
+  100% {
+    background: #5cec3a;
+    fill: #5cec3a; } }
+@-o-keyframes ham {
+  0% {
+    background: #f5f697;
+    fill: #f5f697; }
+
+  100% {
+    background: #5cec3a;
+    fill: #5cec3a; } }

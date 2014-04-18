@@ -14,45 +14,39 @@ body{
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bevan', cursive;
-}
 
+	line-height: $golden*1em;
+	margin-top: $golden*.125em;
+	margin-bottom: $golden*.25em;
 
-
-//text margin designed for use on top and bottom
-@function text-mtb($font-size){
-  @return $font-size/$golden
-}
-@function line-height($font-size){
-	@return $golden*1em
+	small {
+		font-size: .33em;
+		font-family: 'Open Sans', sans-serif;
+	}
 }
 
 h1 {
-	line-height: $golden*1em;
 	font-size: $h1-size; 
 }
 
 h2 { 
-	line-height: $golden*1em;
 	font-size: $h2-size;
 }
 h3 { 
-	line-height: $golden*1em;
 	font-size: $h3-size; 
 }
 h4 { 
-	line-height: $golden*1em;
 	font-size: $h4-size; 
 }
 h5 { 
-	line-height: $golden*1em;
 	font-size: $h5-size; 
 }
 h6 { 
-	line-height: $golden*1em;
 	font-size: $h6-size; 
 }
 
 p {
 	line-height: $golden*1em;
+	margin-bottom: $golden*.25em;
 	font-size: $p-size;
 }

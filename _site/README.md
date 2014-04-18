@@ -1,3 +1,5 @@
-p1-bio
+Portfolio Project at EWU
 ======
-* Hamburger Helper
+### Sources
+* http://davidpots.com/blog/jekyll-github-pages-compass/
+* http://alistapart.com/article/howtosizetextincss
