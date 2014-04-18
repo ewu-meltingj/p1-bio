@@ -1,0 +1,4 @@
+name: Default Layout
+markdown: redcarpet
+pygments: true
+baseurl:
