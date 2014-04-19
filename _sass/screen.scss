@@ -5,6 +5,11 @@
 @import "grid";
 @import "type";
 @import "mixins";
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
 
 $base-color: #fcfcfc;
 
@@ -52,6 +57,11 @@ body {
 		list-style-type: disc;
 		margin-left: $golden * 1em;
 		margin-bottom: $golden*.5em;
+	}
+	a {
+		text-decoration: none;
+		color: #222;
+		margin-left: $golden*.25em;
 	}
 }
 $bg-1: #f43994;
