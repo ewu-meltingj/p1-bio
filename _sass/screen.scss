@@ -45,6 +45,14 @@ body {
 	span {
 		font-weight: 700;
 	}
+	ul {
+		margin-bottom: $golden*1em;
+	}
+	ul li {
+		list-style-type: disc;
+		margin-left: $golden * 1em;
+		margin-bottom: $golden*.5em;
+	}
 }
 $bg-1: #f43994;
 $bg-2: #b2e0ef;

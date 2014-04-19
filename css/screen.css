@@ -566,6 +566,12 @@ body {
   text-align: justify; }
 .main-body span {
   font-weight: 700; }
+.main-body ul {
+  margin-bottom: 1.618em; }
+.main-body ul li {
+  list-style-type: disc;
+  margin-left: 1.618em;
+  margin-bottom: 0.809em; }
 
 .ham {
   animation: ham 2s ease-in-out alternate infinite;
