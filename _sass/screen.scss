@@ -6,16 +6,17 @@
 @import "type";
 @import "mixins";
 
-$base-color: #fff;
+$base-color: #fcfcfc;
 
 body {
 	background: $base-color;
 }
 
 .profile-picture {
-	margin-top: 10px;
-	padding: 60px 25px 0 25px;
-	border: 1px solid #bbb;
+	margin-top: 11px;
+	.path-color {
+		fill: #cccccc;
+	}
 }
 
 .main-body {
@@ -35,16 +36,15 @@ body {
 		text-align: justify;
 	}
 }
-$bg-1: #000;
-$bg-2: #f5f697;
-$bg-3: #5cec3a;
-$bg-4: #eee;
-$bg-5: #aaa;
-$bg-6: #444;
+$bg-1: #f43994;
+$bg-2: #b2e0ef;
+$bg-3: #fb9934;
+$bg-4: #64bc92;
+$bg-5: #703392;
+$bg-6: #ed443f;
 
 // bg-2 through bg-5 are currently commented out
-@include animate-5-bg($bg-1, $bg-2, $bg-3, $bg-4, $bg-5, $bg-6, bg_animate, 2s);
-@include animate-5-bg($bg-2, $bg-2, $bg-3, $bg-4, $bg-5, $bg-3, ham, 1s);
+@include animate-5-bg($bg-1, $bg-2, $bg-3, $bg-4, $bg-5, $bg-6, ham, 2s);
 
 
 

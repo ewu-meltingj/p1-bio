@@ -541,12 +541,12 @@ p {
   font-size: 1em; }
 
 body {
-  background: white; }
+  background: #fcfcfc; }
 
 .profile-picture {
-  margin-top: 10px;
-  padding: 60px 25px 0 25px;
-  border: 1px solid #bbb; }
+  margin-top: 11px; }
+  .profile-picture .path-color {
+    fill: #cccccc; }
 
 .main-body h1 {
   color: #ffffff;
@@ -558,79 +558,81 @@ body {
   margin-bottom: 1.2135em;
   text-align: justify; }
 
-.bg_animate {
-  animation: bg_animate 2s ease-in-out alternate infinite;
-  -webkit-animation: bg_animate 2s ease-in-out alternate infinite;
-  -moz-animation: bg_animate 2s ease-in-out alternate infinite;
-  -o-animation: bg_animate 2s ease-in-out alternate infinite; }
-
-@keyframes bg_animate {
-  0% {
-    background: black;
-    fill: black; }
-
-  100% {
-    background: #444444;
-    fill: #444444; } }
-@-webkit-keyframes bg_animate {
-  0% {
-    background: black;
-    fill: black; }
-
-  100% {
-    background: #444444;
-    fill: #444444; } }
-@-moz-keyframes bg_animate {
-  0% {
-    background: black;
-    fill: black; }
-
-  100% {
-    background: #444444;
-    fill: #444444; } }
-@-o-keyframes bg_animate {
-  0% {
-    background: black;
-    fill: black; }
-
-  100% {
-    background: #444444;
-    fill: #444444; } }
 .ham {
-  animation: ham 1s ease-in-out alternate infinite;
-  -webkit-animation: ham 1s ease-in-out alternate infinite;
-  -moz-animation: ham 1s ease-in-out alternate infinite;
-  -o-animation: ham 1s ease-in-out alternate infinite; }
+  animation: ham 2s ease-in-out alternate infinite;
+  -webkit-animation: ham 2s ease-in-out alternate infinite;
+  -moz-animation: ham 2s ease-in-out alternate infinite;
+  -o-animation: ham 2s ease-in-out alternate infinite; }
 
 @keyframes ham {
   0% {
-    background: #f5f697;
-    fill: #f5f697; }
+    fill: #f43994; }
+
+  20% {
+    fill: #b2e0ef; }
+
+  40% {
+    fill: #fb9934; }
+
+  60% {
+    fill: #64bc92; }
+
+  80% {
+    fill: #703392; }
 
   100% {
-    background: #5cec3a;
-    fill: #5cec3a; } }
+    fill: #ed443f; } }
 @-webkit-keyframes ham {
   0% {
-    background: #f5f697;
-    fill: #f5f697; }
+    fill: #f43994; }
+
+  20% {
+    fill: #b2e0ef; }
+
+  40% {
+    fill: #fb9934; }
+
+  60% {
+    fill: #64bc92; }
+
+  80% {
+    fill: #703392; }
 
   100% {
-    background: #5cec3a;
-    fill: #5cec3a; } }
+    fill: #ed443f; } }
 @-moz-keyframes ham {
   0% {
-    background: #f5f697;
-    fill: #f5f697; }
+    fill: #f43994; }
+
+  20% {
+    fill: #b2e0ef; }
+
+  40% {
+    fill: #fb9934; }
+
+  60% {
+    fill: #64bc92; }
+
+  80% {
+    fill: #703392; }
 
   100% {
-    background: #5cec3a;
-    fill: #5cec3a; } }
+    fill: #ed443f; } }
 @-o-keyframes ham {
   0% {
-    background: #f5f697;
-    fill: #f5f697; }
+    fill: #f43994; }
+
+  20% {
+    fill: #b2e0ef; }
+
+  40% {
+    fill: #fb9934; }
+
+  60% {
+    fill: #64bc92; }
+
+  80% {
+    fill: #703392; }
 
   100% {
-    background: #5cec3a;
-    fill: #5cec3a; } }
+    fill: #ed443f; } }
