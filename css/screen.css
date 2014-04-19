@@ -544,9 +544,16 @@ body {
   background: #fcfcfc; }
 
 .profile-picture {
-  margin-top: 11px; }
+  margin-top: 11px;
+  width: 100%; }
   .profile-picture .path-color {
     fill: #cccccc; }
+
+.hai {
+  margin-top: -2px; }
+
+.bai {
+  margin-bottom: 0; }
 
 .main-body h1 {
   color: #ffffff;
@@ -557,6 +564,8 @@ body {
 .main-body p {
   margin-bottom: 1.2135em;
   text-align: justify; }
+.main-body span {
+  font-weight: 700; }
 
 .ham {
   animation: ham 2s ease-in-out alternate infinite;

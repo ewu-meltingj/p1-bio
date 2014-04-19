@@ -14,9 +14,16 @@ body {
 
 .profile-picture {
 	margin-top: 11px;
+	width: 100%;
 	.path-color {
 		fill: #cccccc;
 	}
+}
+.hai{
+	margin-top: -2px;
+}
+.bai{
+	margin-bottom: 0;
 }
 
 .main-body {
@@ -34,6 +41,9 @@ body {
 	p {
 		margin-bottom: $golden*.75em;
 		text-align: justify;
+	}
+	span {
+		font-weight: 700;
 	}
 }
 $bg-1: #f43994;
