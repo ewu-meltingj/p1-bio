@@ -1,15 +1,10 @@
 @import "compass/reset";
 // @import "susy";
-@import "normalize";
+// @import "normalize";
 // @import "breakpoint";
 @import "grid";
 @import "type";
 @import "mixins";
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-/* brandico */
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-}
 
 $base-color: #fcfcfc;
 
@@ -17,19 +12,19 @@ body {
 	background: $base-color;
 }
 
-.profile-picture {
-	margin-top: 11px;
-	width: 100%;
-	.path-color {
-		fill: #cccccc;
-	}
-}
+// .profile-picture {
+// 	margin-top: 11px;
+// 	width: 100%;
+// 	.path-color {
+// 		fill: #cccccc;
+// 	}
+// }
 .hai{
 	margin-top: -2px;
 }
-.bai{
-	margin-bottom: 0;
-}
+// .bai{
+// 	margin-bottom: 0;
+// }
 
 .main-body {
 
