@@ -462,7 +462,7 @@ table {
 .grid_3,
 .grid_4,
 .grid_5,
-.grid_6
+.grid_6,
 .grid_7,
 .grid_8,
 .grid_9,
@@ -540,17 +540,14 @@ p {
   margin-bottom: 0.4045em;
   font-size: 1em; }
 
-body {
-  background: #fcfcfc; }
+.top-about {
+  float: left; }
 
 .hai {
   margin-top: -2px; }
 
-.container {
-  background: #ccc; }
-
-.yellow {
-  background: yellow; }
+.no-bottom-margin {
+  margin-bottom: 0; }
 
 .main-body h1 {
   color: #ffffff;
@@ -573,6 +570,13 @@ body {
   text-decoration: none;
   color: #222;
   margin-left: 0.4045em; }
+.main-body img {
+  border: 1px solid #bbb;
+  padding: 2px;
+  width: 482px; }
+
+.cat {
+  width: 100%; }
 
 .ham {
   animation: ham 2s ease-in-out alternate infinite;
