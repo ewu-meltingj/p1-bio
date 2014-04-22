@@ -19,31 +19,31 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: $golden*.125em;
 	margin-bottom: $golden*.25em;
 
-	// small {
-	// 	font-size: .33em;
-	// 	font-family: 'Open Sans', sans-serif;
-	// }
+	small {
+		font-size: .33em;
+		font-family: 'Open Sans', sans-serif;
+	}
 }
 
 h1 {
 	font-size: $h1-size; 
 }
 
-// h2 { 
-// 	font-size: $h2-size;
-// }
+h2 { 
+	font-size: $h2-size;
+}
 h3 { 
 	font-size: $h3-size; 
 }
 h4 { 
 	font-size: $h4-size; 
 }
-// h5 { 
-// 	font-size: $h5-size; 
-// }
-// h6 { 
-// 	font-size: $h6-size; 
-// }
+h5 { 
+	font-size: $h5-size; 
+}
+h6 { 
+	font-size: $h6-size; 
+}
 
 p {
 	line-height: $golden*1em;

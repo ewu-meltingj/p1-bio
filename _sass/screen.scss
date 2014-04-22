@@ -1,6 +1,6 @@
 @import "compass/reset";
 // @import "susy";
-// @import "normalize";
+@import "normalize";
 // @import "breakpoint";
 @import "grid";
 @import "type";
@@ -25,6 +25,14 @@ body {
 // .bai{
 // 	margin-bottom: 0;
 // }
+
+.container {
+	background: #ccc;
+}
+
+.yellow {
+	background: yellow;
+}
 
 .main-body {
 
